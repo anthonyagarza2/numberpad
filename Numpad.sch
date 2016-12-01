@@ -28,10 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:microchip_pic12mcu
-LIBS:freetronics_schematic
-LIBS:ArduProMiniTKB
-LIBS:Numpad-cache
+LIBS:splanck throughhole-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -66,7 +63,7 @@ F 1 "D" H 4000 3350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4000 3450 60  0001 C CNN
 F 3 "" H 4000 3450 60  0000 C CNN
 	1    4000 3450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW1
@@ -88,7 +85,7 @@ F 1 "D" H 3300 3350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 3300 3450 60  0001 C CNN
 F 3 "" H 3300 3450 60  0000 C CNN
 	1    3300 3450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW15
@@ -110,7 +107,7 @@ F 1 "D" H 5400 3350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 5400 3450 60  0001 C CNN
 F 3 "" H 5400 3450 60  0000 C CNN
 	1    5400 3450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW10
@@ -132,7 +129,7 @@ F 1 "D" H 4700 3350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4700 3450 60  0001 C CNN
 F 3 "" H 4700 3450 60  0000 C CNN
 	1    4700 3450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2750 3600 5400 3600
@@ -158,7 +155,7 @@ F 1 "D" H 4000 3850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4000 3950 60  0001 C CNN
 F 3 "" H 4000 3950 60  0000 C CNN
 	1    4000 3950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW2
@@ -180,7 +177,7 @@ F 1 "D" H 3300 3850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 3300 3950 60  0001 C CNN
 F 3 "" H 3300 3950 60  0000 C CNN
 	1    3300 3950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW11
@@ -202,7 +199,7 @@ F 1 "D" H 4700 3850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4700 3950 60  0001 C CNN
 F 3 "" H 4700 3950 60  0000 C CNN
 	1    4700 3950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Connection ~ 4700 4100
 Connection ~ 4000 4100
@@ -228,7 +225,7 @@ F 1 "D" H 4000 4350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4000 4450 60  0001 C CNN
 F 3 "" H 4000 4450 60  0000 C CNN
 	1    4000 4450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW3
@@ -250,7 +247,7 @@ F 1 "D" H 3300 4350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 3300 4450 60  0001 C CNN
 F 3 "" H 3300 4450 60  0000 C CNN
 	1    3300 4450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW12
@@ -272,7 +269,7 @@ F 1 "D" H 4700 4350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4700 4450 60  0001 C CNN
 F 3 "" H 4700 4450 60  0000 C CNN
 	1    4700 4450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Connection ~ 4700 4600
 Connection ~ 4000 4600
@@ -296,7 +293,7 @@ F 1 "D" H 4000 4850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4000 4950 60  0001 C CNN
 F 3 "" H 4000 4950 60  0000 C CNN
 	1    4000 4950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW4
@@ -318,7 +315,7 @@ F 1 "D" H 3300 4850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 3300 4950 60  0001 C CNN
 F 3 "" H 3300 4950 60  0000 C CNN
 	1    3300 4950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW13
@@ -340,7 +337,7 @@ F 1 "D" H 4700 4850 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4700 4950 60  0001 C CNN
 F 3 "" H 4700 4950 60  0000 C CNN
 	1    4700 4950
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Connection ~ 4700 5100
 Connection ~ 4000 5100
@@ -364,7 +361,7 @@ F 1 "D" H 4700 5350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 4700 5450 60  0001 C CNN
 F 3 "" H 4700 5450 60  0000 C CNN
 	1    4700 5450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW5
@@ -386,7 +383,7 @@ F 1 "D" H 3700 5350 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 3700 5450 60  0001 C CNN
 F 3 "" H 3700 5450 60  0000 C CNN
 	1    3700 5450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW17
@@ -408,7 +405,7 @@ F 1 "D" H 5400 5200 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 5400 5300 60  0001 C CNN
 F 3 "" H 5400 5300 60  0000 C CNN
 	1    5400 5300
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L SW_PUSH SW16
@@ -430,7 +427,7 @@ F 1 "D" H 5400 4250 50  0000 C CNN
 F 2 "Keyboard:DIODE" H 5400 4350 60  0001 C CNN
 F 3 "" H 5400 4350 60  0000 C CNN
 	1    5400 4350
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	2700 3300 2700 5300
